@@ -1,0 +1,74 @@
+.navbar
+{
+    background-color: #8E24AA !important;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+.fa-user-circle-o,.fa-cart-arrow-down
+{
+    font-size: 25px !important;
+}
+.fa-truck,.fa-clock-o,.fa-thumbs-up,.fa-facebook,.fa-instagram,.fa-twitter
+{
+    font-size: 40px !important;
+    margin-right: 10px;
+    color: #8E24AA; 
+}
+.cart1,.cart3
+{
+    display: flex !important;
+    height: 100px !important;
+    width: 300px !important;
+    background-color: white !important;
+    box-shadow:2px 4px 5px grey !important;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.bg-primary
+{
+    background-color: #8E24AA !important;
+    height: 30px !important;
+}
+.card
+{
+    width: 250px !important;
+    height: auto !important;
+    margin-top: 50px;
+}
+
+.maincart
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.arrival
+{
+    margin-top: 50px;
+}
+.btn-primary
+{
+    background-color:#8E24AA; 
+    width: 100%;
+    border-radius: 30px;
+}
+.heading>h1
+{
+    color:#8E24AA ;
+    text-shadow: 2px 4px  5px black;
+    text-align: center;
+}
+@media screen and(max-width:600px)
+{
+    .cart1,.cart3
+    {
+        width: 100px;
+    }
+}
